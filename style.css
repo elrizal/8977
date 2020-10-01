@@ -1,6 +1,6 @@
-h1, h2{ 
+h1, h2, p { 
     font-family: 'Nunito Sans','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
-
+    text-align: center;
 }
 
 .test-btn {
@@ -14,14 +14,14 @@ h1, h2{
     font-weight: 700;
     border: 0;
 }
-.test-form-modal {
-    height: 50px;
+input, .test-form-modal {
+    height: 30px;
     display: flex;
     /* flex-direction: row;
     align-items: flex-start; */
     padding: 10px 0px 0px 12px;
-    position: absolute;
-    width: 500px
+    margin: 0 auto;
+    width: 90%
 }
 .test-modal-contatiner {
     position: absolute;
